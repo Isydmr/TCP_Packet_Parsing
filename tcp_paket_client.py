@@ -4,7 +4,7 @@ class tcp:
         self.TCP_IP = '192.168.1.21'
         self.TCP_PORT = 6010
         self.BUFFER_SIZE = 1024
-        self.MESSAGE = (b'bana byte at')
+        self.MESSAGE = (b'send bytes')
         self.oku = True
         self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.s.connect((self.TCP_IP, self.TCP_PORT))
